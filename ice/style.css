@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(99, 173, 242);
+    color:aliceblue;
+}
+h1 {
+    color: aliceblue;
+    /* background-color: black; */
+    padding: 10px 15px;
+    /* border: 2px solid white; */
+    margin: 100px;
+}
+p {
+    background-color: cadetblue;
+}
+.flavour {
+    color: black;
+}
+#culture {
+    color: blue;
+}

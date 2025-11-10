@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            background-color: #E8ECED;
+            font-family: Arial;
+            /* max-width: 80%; */
+            margin: 10px 20%;
+        }
+
+        #card {
+            border: 5px solid black;
+            border-radius: 20px;
+            text-align: center;
+            background-image: url(images/christus.webp);
+            background-size: cover;
+            background-position: center;
+            max-width: 45%;
+            margin: 0 auto;
+            padding: 20px 30%;
+        }
+
+        #title, #sub_title {
+            color: white;
+        }
+
+        #title {
+            font-size: xx-large;
+        }
+
+        #sub_title {
+            font-size: larger;
+        }
+
+        #presidency {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            align-items: end;
+        }
+
+        #presidency img {
+            border: 5px solid white;
+            border-radius: 50%;
+            width: 60%;
+            height: 60%;
+            object-fit: cover;
+            aspect-ratio: 1/1;
+        }
+
+        #presidency img:hover {
+            border: 5px solid rgb(201, 198, 198);
+        }
+
+        #presidency #nelson {
+            width: 90%;
+            height: 90%;
+        }
+
+        #apostles {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+        }
+
+        #apostles img {
+            border: 5px solid white;
+            border-radius: 50%;
+            width: 70%;
+            height: 70%;
+            object-fit: cover;
+        }
+
+        #apostles img:hover {
+            border: 5px solid rgb(201, 198, 198);
+        }
+    </style>
+</head>
+<body>
+    <div id="card">
+        <header>
+            <div id="title">First Presidency</div>
+            <div id="presidency">
+                <div><img src="images/oaks.webp" alt="oaks"></div>
+                <div><img id="nelson" src="images/nelson.webp" alt="nelson"></div>
+                <div><img src="images/eyring.webp" alt="eyring"></div>
+            </div>
+            <div id="sub_title">Quorum of the Twelve Apostles</div>
+        </header>
+        <footer>
+            <div id="apostles">
+                <div><img src="images/holland.webp" alt=""></div>
+                <div><img src="images/uchtdorf.webp" alt=""></div>
+                <div><img src="images/bednar.webp" alt=""></div>
+                <div><img src="images/cook.webp" alt=""></div>
+                <div><img src="images/christofferson.webp" alt=""></div>
+                <div><img src="images/anderson.webp" alt=""></div>
+                <div><img src="images/rasband.webp" alt=""></div>
+                <div><img src="images/stevenson.webp" alt=""></div>
+                <div><img src="images/renlund.webp" alt=""></div>
+                <div><img src="images/gong.webp" alt=""></div>
+                <div><img src="images/soares.webp" alt=""></div>
+                <div><img src="images/kearon.webp" alt=""></div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

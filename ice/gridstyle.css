@@ -1,0 +1,54 @@
+div {
+    background-color: blue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.first {
+    grid-column: 1/2;
+}
+
+.second {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.third {
+    background-color: purple;
+    grid-column: 1/-1;
+}
+
+.fourth {
+    font-weight: bold;
+    grid-column: -6/-1;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.red {
+    background-color: red;
+    grid-column: 1/-1;
+}
+
+.yellow {
+    background-color: yellow;
+    grid-column: 1/-1;
+}
+
+.blue {
+    background-color: blue;
+    grid-column: 1/2;
+}
+
+.black {
+    background-color: black;
+    grid-column: 2/-1;
+}

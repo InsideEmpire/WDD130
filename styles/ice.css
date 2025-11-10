@@ -1,0 +1,130 @@
+body {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(16, 46, 73, 0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    /* padding: 20px 0; */
+    color: white;
+    margin: 0;
+    font-size: 17px;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav a:hover {
+    text-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff, 0 0 40px #00c3ff;
+    
+}
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+    width: 80%;
+    /* margin: 80px auto; */
+
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+    box-shadow: 0 0 30px rgba(0, 195, 255, 0.15);
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+td {
+    padding: 20px 30px;
+    text-decoration: none; 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+}
+
+td:hover {
+    background-color: rgba(0, 195, 255, 0.08);
+    text-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff;
+    color: #bdf4ff;
+    transition: 0.3s;
+}
+
+table:hover {
+    box-shadow: 0 0 40px rgba(0, 195, 255, 0.3);
+}
+
+a {
+    color: #bdf4ff;
+    text-decoration: none;
+}
+
+main {
+    overflow-x: auto;
+}
+
+#iamge {
+    width: 100px;
+    aspect-ratio: 1;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#self-statement {
+    color: white;
+    background-color: rgba(0, 195, 255, 0.05);
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+#self-statement:hover {
+    background-color: rgba(0, 195, 255, 0.1);
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5vh;
+    background-color: rgb(16, 46, 73, 0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+}
+
+footer i {
+    color: white;
+    font-size: 50px;
+    transition: 0.3s;
+}
+
+footer i:hover {
+    text-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff, 0 0 40px #00c3ff;
+}
